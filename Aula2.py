@@ -2,7 +2,9 @@
 
 print("Qual a sua idade?")
 idade = int(input())
+tempo = 18 - idade
 if idade < 18:
-    print("você não pode entrar na festa! E deve esperar mais alguns anos")
+    print("Você não esta autorizado entrar na festa, espere:", tempo ,"anos")
+
 else:
-    print("você esta autorizado entrar na festa")
+    print("Você esta autorizado entrar na festa")
